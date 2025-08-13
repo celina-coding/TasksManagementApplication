@@ -1,0 +1,31 @@
+{
+  "name": "task-manager-backend",
+  "version": "1.0.0",
+  "description": "Task management API with Fastify & TypeScript",
+  "main": "dist/server.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "type-check": "tsc --noEmit"
+  },
+  "keywords": [
+    "fastify",
+    "typescript",
+    "rest-api",
+    "task-management"
+  ],
+  "author": "Celina Feghoul",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/cors": "^11.1.0",
+    "fastify": "^4.29.1",
+    "fastify-zod": "^1.4.0",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@types/node": "^24.2.1",
+    "tsx": "^4.20.4",
+    "typescript": "^5.9.2"
+  }
+}
