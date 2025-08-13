@@ -24,34 +24,25 @@ Frontend (React)
 
     Boutons pour delete et changer le status
 
-    Le CSS est fait main (oui, j'ai passé trop de temps sur les border-radius)
+Installation locale
+1. Clone le repo
+bash
 
-Pour l'installer
+git clone https://github.com/celina-coding/TasksManagementApplication.git
+cd TasksManagementApp
 
-Backend :
+2. Setup le Backend
 bash
 
 cd backend
 npm install
 npm run dev
+# Le serveur tourne sur http://localhost:3000
 
-Frontend :
+3. Setup le Frontend
 bash
 
-cd frontend
+cd ../frontend
 npm install
 npm run dev
-
-Pourquoi j'ai fait comme ça ?
-
-    Fastify : Parce que j'avais envie d'essayer et c'était cool
-
-    Pas de DB : Les données vivent en mémoire (ça me fait une variable globale de plus à gérer)
-
-    Zod : Pour valider les inputs et éviter les surprises
-
-    React Query : J'ai pas eu le temps mais je l'aurais mis si j'avais 2h de plus
-
-Screenshot
-
-https://./screenshot.png (J'ai mis un screenshot dégueu pris avec mon tel)
+# L'app se lance sur http://localhost:5173
